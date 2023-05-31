@@ -1,0 +1,24 @@
+
+ul {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    padding: 10rem;
+    background-color: #eee;
+    display: flex;
+}
+
+li {
+    background-color: #fff;
+    border: 0.4em solid #000;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 2.5rem 1rem;
+}
+
+
+

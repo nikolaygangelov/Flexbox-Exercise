@@ -1,0 +1,79 @@
+div.page {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.page header {
+    border-bottom: 2px solid rgb(0,0,0);
+    width: 100%;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 5rem;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    border-left: 2px solid gray;
+    font-style: italic;
+    padding-left: 2rem;
+    color: gray;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+section {
+    width: 55%;
+}
+
+aside {
+    margin-left: 4rem;
+}
+
+.img1 {
+    float: right;
+    margin: 5px;
+    padding: 0.35rem;
+    border: 0.2rem solid #000;
+    width: 16%;
+    height: 16%;
+}
+
+.img2 {
+    float: left;
+    margin: 5px;
+    padding: 0.35rem;
+    border: 0.2rem solid #000;
+    width: 22%;
+    height: 8%;
+}
+
+article {
+    display: flex;
+    
+}
+
+blockquote > p {
+    text-align: right;
+}
+
+article > p {
+    width: 170%;
+}
+
+h2 {
+    margin-top: 3rem;
+}
+
