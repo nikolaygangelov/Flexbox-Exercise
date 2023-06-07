@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    min-height: 100vh;
+}
+
+section.container {
+    display: flex;
+    gap: 1rem;
+}
+
+.img1, .img2, .img3, .img4 {
+    width: 5rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+    box-shadow: 1rem 1rem 0.5rem lightgray;
+}
+
+.img2 {
+    width: 100%;
+    border-left: 1rem solid black;
+    border-right: 1rem solid black;
+}
